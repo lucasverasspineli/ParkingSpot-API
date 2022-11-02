@@ -34,7 +34,4 @@ public class ParkingSpotModel implements Serializable {
     private String apartment;
     @Column(nullable = false, length = 30)
     private String block;
-
-
-
 }
